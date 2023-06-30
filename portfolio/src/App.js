@@ -4,6 +4,7 @@ import Home from './pages/Home/Home'
 import Projects from "./pages/Projects/Projects.js";
 import Resume from "./pages/Resume/Resume.js";
 import './App.css';
+import Personal from "./pages/Personal/Personal.js";
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       <Route 
         path="/resume"
         element={<Resume/>}/>
+      <Route 
+        path="/personal"
+        element={<Personal/>}/>
     </Routes>
       
       
