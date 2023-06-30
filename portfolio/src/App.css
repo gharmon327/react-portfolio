@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  color: #5885AF;
+  /* color: #5885AF; */
+  color: white;
 }
 
 .App-logo {
@@ -40,5 +41,6 @@
 
 
 body {
-  background-color: #C3E0E5;
+  /* background-color: #C3E0E5; */
+  background-image: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=900&t=st=1688166099~exp=1688166699~hmac=fe473ec7d0e558c5e44c4053d287bca835d275263d1dc1c4308aa23c7176f969");
 }
