@@ -1,12 +1,12 @@
 .nav {
     text-align: center;
-    background-color: #41729F;
-  :link {
+    /* background-color: #41729F; */
+    /* color: white; */
+}
+
+.navLink {
     display: inline-block;
     padding: 20px;
     align-items: center;
-    .hover {
-      cursor: pointer;
-    }
-  }
+    color: white;
 }

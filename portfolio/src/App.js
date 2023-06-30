@@ -3,6 +3,7 @@ import  NavBar  from './pages/NavBar/NavBar.js'
 import Home from './pages/Home/Home'
 import Projects from "./pages/Projects/Projects.js";
 import Resume from "./pages/Resume/Resume.js";
+import About from "./pages/About/About.js";
 import './App.css';
 import Personal from "./pages/Personal/Personal.js";
 
@@ -14,6 +15,9 @@ function App() {
       <Route 
         path="/"
         element={<Home/>}/>
+      <Route 
+        path="/about"
+        element={<About/>}/>
       <Route 
         path="/projects"
         element={<Projects/>}/>
