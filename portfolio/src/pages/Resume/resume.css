@@ -2,3 +2,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.resumeImg {
+    margin: 20px;
+}
