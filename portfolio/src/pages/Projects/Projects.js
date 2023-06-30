@@ -28,7 +28,7 @@ export default function Projects() {
         practice working in a group environment and troubleshooting each other's
         code.
       </p>
-      <img src={clowns} alt="clowns" height="500px" width="500px" />
+      <img src={clowns} alt="clowns" height="500px" width="500px" className="screenshot"/>
       
       </div>
 
@@ -44,7 +44,7 @@ export default function Projects() {
         addition, we implemented user image input utilizing Cloudinary, a
         massive win for our team!
       </p>
-      <img src={recipe} alt="recipe" height="500px" width="500px" />
+      <img src={recipe} alt="recipe" height="500px" width="500px" className="screenshot"/>
       </div>
 
       <a href="https://gharmon327.github.io/blackjack-project/" className="link">BlackJack</a>
@@ -59,7 +59,7 @@ export default function Projects() {
         addition, doing this allowed me to dive in and solidify my passion for
         engineering.
       </p>
-      <img src={blackjack} alt="blackjack" height="500px" width="500px" />
+      <img src={blackjack} alt="blackjack" height="500px" width="500px" className="screenshot"/>
      </div>
 
       {/* <h2>Hackathon</h2> */}
@@ -68,7 +68,7 @@ export default function Projects() {
      
       <br />
       <p>text for fetch</p>
-      <img src={fetch} alt="fetch" height="500px" width="500px" />
+      <img src={fetch} alt="fetch" height="500px" width="500px" className="screenshot"/>
       </div>
     </div>
   );
