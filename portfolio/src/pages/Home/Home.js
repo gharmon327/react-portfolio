@@ -15,6 +15,7 @@ export default function Home(){
             <li>Camping</li>
             <li>Coding</li>
             <li>Fishing</li>
+            <li>Sex</li>
         </ul>
         <h2>Contact Me</h2>
         <ul>
