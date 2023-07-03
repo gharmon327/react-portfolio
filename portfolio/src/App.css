@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  /* color: #5885AF; */
-  color: white;
+  color: #704F38;
 }
 
 .App-logo {
@@ -41,6 +40,7 @@
 
 
 body {
-  /* background-color: #C3E0E5; */
-  background-image: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?w=900&t=st=1688166099~exp=1688166699~hmac=fe473ec7d0e558c5e44c4053d287bca835d275263d1dc1c4308aa23c7176f969");
+  background-image: url("https://cdn.pixabay.com/photo/2021/10/21/07/50/minimalist-background-6728257_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

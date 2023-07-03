@@ -7,18 +7,10 @@ import "./projects.css";
 export default function Projects() {
   return (
     <div>
-      {/* <h1>Projects</h1> */}
-      {/* <p>
-        While completing my Boot-camp with General Assembly I was able to work
-        on Four projects, Two were individual projects and Two were Group
-        projects. Check them out Below!
-      </p> */}
-
-      <a href="https://clowning-around-client.onrender.com/" className="link">Clowning Around</a>
     <div className="project">
-      <br />
-      
+     
       <p>
+         <a href="https://clowning-around-client.onrender.com/" className="link">Clowning Around</a><br/>
         Clowning Around is the clown-themed forum that you never knew you
         needed. This was my third project and is a group project that was built
         with the git forking workflow. It is a full-stack app that was created
@@ -29,13 +21,13 @@ export default function Projects() {
         code.
       </p>
       <img src={clowns} alt="clowns" height="500px" width="500px" className="screenshot"/>
-      
       </div>
 
-      <a href="httpas://recipe-forum-client.onrender.com/" className="link">Recipe Forum</a>
+      
       <div className="project">
-      <br />
+         <img src={recipe} alt="recipe" height="500px" width="500px" className="screenshot"/>
       <p>
+        <a href="https://recipe-forum-client.onrender.com/" className="link">Recipe Forum</a> <br />
         My team and I created a recipe forum application for my final project.
         Food has always been a place for people to come together, so we decided
         to make an app that allows people to share recipes and add comments and
@@ -44,13 +36,14 @@ export default function Projects() {
         addition, we implemented user image input utilizing Cloudinary, a
         massive win for our team!
       </p>
-      <img src={recipe} alt="recipe" height="500px" width="500px" className="screenshot"/>
+     
       </div>
 
-      <a href="https://gharmon327.github.io/blackjack-project/" className="link">BlackJack</a>
+      
       <div className="project">
-      <br />
+   
       <p>
+        <a href="https://gharmon327.github.io/blackjack-project/" className="link">BlackJack</a><br />
         This was the first project I built and was one of my two solo projects.
         For this project, I was able to code one of my favorite card games from
         growing up using HTML, vanilla JS, and CSS. This project was so much
@@ -62,13 +55,14 @@ export default function Projects() {
       <img src={blackjack} alt="blackjack" height="500px" width="500px" className="screenshot"/>
      </div>
 
-      {/* <h2>Hackathon</h2> */}
-       <a href="https://pet-front-end.onrender.com/" className="link">Fetch</a>
+       
       <div className="project">
      
-      <br />
-      <p>text for fetch</p>
       <img src={fetch} alt="fetch" height="500px" width="500px" className="screenshot"/>
+      <p>
+        <a href="https://pet-front-end.onrender.com/" className="link">Fetch</a><br />
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.        </p>
+      
       </div>
     </div>
   );

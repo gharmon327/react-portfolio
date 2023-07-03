@@ -7,7 +7,6 @@ import "./about.css";
 export default function About() {
   return (
     <>
-      {/* <h1> Gregory Harmons Portfolio </h1> */}
       <div className="header">
         <div className="headshot">
         <img className="headshotImg" src={profile} alt="headshot" />
